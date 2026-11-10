@@ -1,63 +1,55 @@
 <div align="center">
 
-# 🎬 SaveTools
+# SaveTools
 
-### Baja videos a tu Android. Rápido, directo, sin broncas.
+**Descarga videos a tu Android. Rápido, directo y sin complicaciones.**
 
-[![Descargar APK](https://img.shields.io/badge/⬇️_DESCARGAR_APK-v2.0-2ea44f?style=for-the-badge)](../../releases/latest)
-[![Android](https://img.shields.io/badge/Android-8.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white)](#-requisitos)
-[![Kotlin](https://img.shields.io/badge/Hecho_con-Kotlin-7f52ff?style=for-the-badge&logo=kotlin&logoColor=white)](#)
+[![Descargar APK](https://img.shields.io/badge/Descargar_APK-v2.0-2ea44f?style=for-the-badge)](../../releases/latest)
+&nbsp;
+[![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-555?style=for-the-badge)](#requisitos)
 
 </div>
 
 ---
 
-## ⚡ ¿Qué hace?
+## Qué es
 
-**SaveTools** descarga videos a tu teléfono sin pedos. Comparte un link desde cualquier app y SaveTools lo baja por ti.
+SaveTools es una app de Android para descargar videos sin vueltas. Pega un enlace o compártelo desde cualquier otra app, y SaveTools lo baja a tu teléfono.
 
-- 📥 **Descarga directa** — pega el link o compártelo desde otra app.
-- 🔗 **Share target** — aparece en el menú *"Compartir"* de Android como **"Guardar en SaveTools"**.
-- ▶️ **Reproductor a tu gusto** — interno o el que ya uses.
-- 🧩 **Repara MP4 fragmentados** y evita formatos que no sirven.
-- 📺 Soporte para contenido que requiere **iniciar sesión**.
+## Características
 
----
+- **Descarga directa.** Pega el enlace o compártelo desde otra app.
+- **Integración con "Compartir".** Aparece en el menú de Android como *Guardar en SaveTools*, así bajas desde donde sea con un toque.
+- **Reproductor a tu elección.** Usa el interno o el que ya tengas instalado.
+- **Repara MP4 fragmentados** y evita formatos que luego no sirven.
+- **Soporte para contenido con inicio de sesión.**
 
-## ⬇️ Descargar
+## Descargar
 
-> **[👉 Baja la última versión aquí](../../releases/latest)**
+Baja la última versión desde la sección de **[Releases](../../releases/latest)** y toma el archivo `SaveTools-v2.0.apk`.
 
-Agarra el archivo **`SaveTools-v2.0.apk`** de la sección *Releases*.
+## Instalar
 
----
+1. Descarga el APK en tu teléfono.
+2. Ábrelo. Si Android lo pide, activa *Instalar apps de orígenes desconocidos*.
+3. Toca **Instalar**. Listo.
 
-## 📲 Instalar
+## Requisitos
 
-1. Descarga el **APK** en tu teléfono.
-2. Ábrelo. Si te sale el aviso, activa **"Instalar apps de orígenes desconocidos"**.
-3. Dale instalar y… **listo** ✅
+| Dato        | Valor                    |
+|-------------|--------------------------|
+| Android     | 8.0 (API 26) o superior  |
+| Versión     | 2.0 (versionCode 9)      |
+| Tamaño      | ~58 MB                   |
 
----
+## Aviso
 
-## 🛠️ Requisitos
-
-| | |
-|---|---|
-| **Android** | 8.0 (API 26) o superior |
-| **Versión** | 2.0 · `versionCode 9` |
-| **Peso** | ~58 MB |
-
----
-
-## ⚠️ Nota
-
-Descarga solo contenido del que tengas derecho. Úsalo con responsabilidad — tú eres el único responsable de lo que bajes.
+Descarga únicamente contenido sobre el que tengas derecho. El uso de la app es tu responsabilidad.
 
 ---
 
 <div align="center">
 
-**Hecho con 🖤 por [@emmaenk](https://github.com/emmaenk)**
+Hecho por [@emmaenk](https://github.com/emmaenk)
 
 </div>
