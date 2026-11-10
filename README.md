@@ -2,11 +2,15 @@
 
 # SaveTools
 
-**Descarga videos a tu Android. Rápido, directo y sin complicaciones.**
+**Descarga videos a tu Android desde TikTok, YouTube, Instagram, X, Facebook y más. Rápido, directo y sin complicaciones.**
 
 [![Descargar APK](https://img.shields.io/badge/Descargar_APK-v2.0-2ea44f?style=for-the-badge)](../../releases/latest)
 &nbsp;
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-555?style=for-the-badge)](#requisitos)
+
+<br>
+
+<img src="screenshot.png" alt="Pantalla principal de SaveTools" width="300">
 
 </div>
 
@@ -14,15 +18,17 @@
 
 ## Qué es
 
-SaveTools es una app de Android para descargar videos sin vueltas. Pega un enlace o compártelo desde cualquier otra app, y SaveTools lo baja a tu teléfono.
+SaveTools es una app de Android para descargar videos sin vueltas. Pega uno o varios enlaces, elige la calidad y descarga. También puedes compartir un video desde cualquier otra app y SaveTools lo baja por ti.
 
 ## Características
 
-- **Descarga directa.** Pega el enlace o compártelo desde otra app.
-- **Integración con "Compartir".** Aparece en el menú de Android como *Guardar en SaveTools*, así bajas desde donde sea con un toque.
-- **Reproductor a tu elección.** Usa el interno o el que ya tengas instalado.
-- **Repara MP4 fragmentados** y evita formatos que luego no sirven.
-- **Soporte para contenido con inicio de sesión.**
+- **Varios a la vez.** Pega varios enlaces (uno por línea) y bájalos en lote.
+- **Muchas plataformas.** TikTok, YouTube, Instagram, X (Twitter), Facebook y más.
+- **Elige la calidad** antes de descargar.
+- **Botón Pegar.** Toma el enlace del portapapeles con un toque.
+- **Integración con "Compartir".** Aparece en el menú de Android como *Guardar en SaveTools*, así bajas desde donde sea.
+- **Cuentas opcionales.** Inicia sesión (o importa `cookies.txt`) solo para videos que lo piden: reels e historias privadas, publicaciones de grupos, contenido sensible.
+- **Mis descargas** y **registro** para llevar control de lo que bajas.
 
 ## Descargar
 
