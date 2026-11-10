@@ -4,9 +4,13 @@
 
 **Descarga videos a tu Android desde TikTok, YouTube, Instagram, X, Facebook y más. Rápido, directo y sin complicaciones.**
 
-[![Descargar APK](https://img.shields.io/badge/Descargar_APK-v2.2-2ea44f?style=for-the-badge)](../../releases/latest)
+## [Descargar la app (APK)](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)
+
+[![Descargar APK](https://img.shields.io/badge/Descargar_APK-2ea44f?style=for-the-badge)](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)
 &nbsp;
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-555?style=for-the-badge)](#requisitos)
+
+<sub>Un solo toque para bajar el APK. Android 8.0 o superior.</sub>
 
 <br>
 
@@ -35,7 +39,9 @@ SaveTools es una app de Android para descargar videos sin vueltas. Pega uno o va
 
 ## Descargar
 
-Baja la última versión desde la sección de **[Releases](../../releases/latest)** y toma el archivo `SaveTools-v2.2.apk`.
+**Descarga directa:** **[SaveTools.apk](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)** — un solo toque y se baja al teléfono.
+
+También puedes entrar a la sección de **[Releases](../../releases/latest)** y bajar `SaveTools-v2.2.apk`.
 
 ## Instalar
 
