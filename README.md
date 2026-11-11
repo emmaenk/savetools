@@ -82,9 +82,24 @@ También puedes entrar a la sección de **[Releases](../../releases/latest)**.
 | Dato        | Valor                    |
 |-------------|--------------------------|
 | Android     | 8.0 (API 26) o superior  |
-| Versión     | 2.4 (versionCode 13)     |
+| Versión     | 2.5 (versionCode 14)     |
 | Arquitectura| arm64-v8a                |
 | Tamaño      | ~58 MB                   |
+
+## Verificación y seguridad
+
+Como la app se instala fuera de Play Store, aquí tienes con qué comprobar que es segura y legítima:
+
+- **APK firmado.** Cada versión se firma con la misma llave (por eso la app se actualiza sola sin reinstalar). Un APK alterado por un tercero no coincide con esa firma.
+- **Compilado a la vista.** El APK se construye y firma automáticamente con GitHub Actions en cada versión; nada se sube a mano desde una compu cualquiera.
+- **Huella del archivo (SHA-256).** Comprueba que el APK que bajaste es idéntico al oficial, byte por byte:
+
+  ```
+  fa7e828ccffecb557529d555231b7b593287642cb8925ffb16e3d2da1279a9ab
+  ```
+
+  En PC o en el teléfono (Termux): `sha256sum SaveTools.apk` debe dar exactamente ese valor.
+- **Permisos mínimos.** Internet, notificaciones, instalar la actualización y guardar archivos. Nada de contactos, SMS ni ubicación.
 
 ## Aviso
 
