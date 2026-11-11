@@ -15,6 +15,8 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-Android_nativo-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](#con-qué-está-hecha)
 &nbsp;
 [![Última versión](https://img.shields.io/github/v/release/emmaenk/savetools?style=flat-square&label=versión&color=555)](https://github.com/emmaenk/savetools/releases/latest)
+&nbsp;
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-ver_análisis-394eff?style=flat-square)](https://www.virustotal.com/gui/file/fa7e828ccffecb557529d555231b7b593287642cb8925ffb16e3d2da1279a9ab)
 
 <sub>Un solo toque para bajar el APK. Android 8.0 o superior.</sub>
 
@@ -100,6 +102,7 @@ Como la app se instala fuera de Play Store, aquí tienes con qué comprobar que 
 
   En PC o en el teléfono (Termux): `sha256sum SaveTools.apk` debe dar exactamente ese valor.
 - **Permisos mínimos.** Internet, notificaciones, instalar la actualización y guardar archivos. Nada de contactos, SMS ni ubicación.
+- **Análisis antivirus.** El APK está revisado en **[VirusTotal](https://www.virustotal.com/gui/file/fa7e828ccffecb557529d555231b7b593287642cb8925ffb16e3d2da1279a9ab)**. Míralo tú mismo.
 
 ## Aviso
 
