@@ -2,13 +2,13 @@
 
 # SaveTools
 
-**Descarga videos a tu Android desde TikTok, YouTube, Instagram, X, Facebook y más. Rápido, directo y sin complicaciones.**
+**Descarga videos desde TikTok, YouTube, Instagram, X, Facebook y más. En tu Android y en tu computadora. Rápido, directo y sin complicaciones.**
 
 ## [Descargar la app (APK)](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)
 
-[![Descargar APK](https://img.shields.io/badge/Descargar_APK-2ea44f?style=for-the-badge)](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)
+[![Descargar APK](https://img.shields.io/badge/Android_·_Descargar_APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)
 &nbsp;
-[![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-555?style=for-the-badge)](#requisitos)
+[![Windows](https://img.shields.io/badge/Windows_·_Descargar-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/emmaenk/savetools/releases/tag/desktop-latest)
 
 [![Descargas totales](https://img.shields.io/github/downloads/emmaenk/savetools/total?style=flat-square&label=descargas&color=2ea44f)](https://github.com/emmaenk/savetools/releases)
 &nbsp;
@@ -16,9 +16,9 @@
 &nbsp;
 [![Última versión](https://img.shields.io/github/v/release/emmaenk/savetools?style=flat-square&label=versión&color=555)](https://github.com/emmaenk/savetools/releases/latest)
 &nbsp;
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-ver_análisis-394eff?style=flat-square)](https://www.virustotal.com/gui/file/fa7e828ccffecb557529d555231b7b593287642cb8925ffb16e3d2da1279a9ab)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-ver_análisis-394eff?style=flat-square)](https://www.virustotal.com/gui/file/c1f6f4245ddeb0d545157dcd49248c92fc8bc0377f9917a597f515dc6f7d6955)
 
-<sub>Un solo toque para bajar el APK. Android 8.0 o superior.</sub>
+<sub>Un solo toque para bajar el APK. Android 8.0 o superior · Windows 10/11.</sub>
 
 <br>
 
@@ -30,7 +30,7 @@
 
 ## Qué es
 
-SaveTools es una app de Android para descargar videos sin vueltas. Pega uno o varios enlaces, elige la calidad y descarga. También puedes compartir un video desde cualquier otra app y SaveTools lo baja por ti.
+SaveTools descarga videos sin vueltas. Pega uno o varios enlaces, elige la calidad y descarga. También puedes compartir un video desde cualquier otra app y SaveTools lo baja por ti. Hay dos versiones que comparten el mismo motor: la **app de Android** y la **app de escritorio para Windows** (Mac en camino).
 
 ## Características
 
@@ -59,50 +59,63 @@ SaveTools es una app de Android para descargar videos sin vueltas. Pega uno o va
 - **Si una plataforma deja de funcionar**, toca *Actualizar motor* (actualiza el componente que lee los sitios). Mantén presionado ese botón para buscar actualización de la app.
 - **Permiso de instalación.** La primera vez Android pedirá permitir *instalar apps de orígenes desconocidos*; es normal en apps fuera de Play Store.
 
-## Con qué está hecha
+## SaveTools para escritorio (Windows · Mac próximamente)
 
-- **Lenguaje:** [Kotlin](https://kotlinlang.org/).
-- **Plataforma:** Android nativo (Activities + layouts XML, Material 3).
-- **Motor de descarga:** [youtubedl-android](https://github.com/yausername/youtubedl-android) (yt-dlp) + **ffmpeg** para unir y reparar archivos.
-- **Build:** Gradle (Kotlin DSL), compilado y firmado automáticamente con GitHub Actions.
-- Solo `arm64-v8a` (teléfonos modernos de 64 bits).
+La versión de computadora trae lo mismo que la de Android, con un instalador muy ligero.
 
-## Descargar
+- **Instalador de ~2.7 MB.** El motor (yt-dlp y ffmpeg) se descarga solo la primera vez que lo necesitas, así que la instalación es mínima.
+- **Cuentas por sitio.** En *Ajustes → Cuentas* tocas **Vincular**, inicias sesión en una ventana del propio sitio (Instagram, YouTube, Facebook, X) y la sesión queda guardada en tu equipo. Después, los enlaces de ese sitio usan tu sesión automáticamente.
+- **Calidad, MP3/M4A y carpeta a elegir**, igual que en Android.
+- **Se actualiza sola.** Te avisa cuando hay una versión nueva y la instala sin salir de la app.
+
+**Descargar (Windows 10/11, 64 bits):** entra a **[la última versión de escritorio](https://github.com/emmaenk/savetools/releases/tag/desktop-latest)** y baja el archivo `SaveTools_..._x64-setup.exe`.
+
+Como es una app fuera de la Store, Windows SmartScreen puede mostrar un aviso la primera vez: toca *Más información → Ejecutar de todas formas*.
+
+## Descargar (Android)
 
 **Descarga directa:** **[SaveTools.apk](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)** — un solo toque y se baja al teléfono. Este enlace siempre sirve la versión más reciente.
 
 También puedes entrar a la sección de **[Releases](../../releases/latest)**.
 
-## Instalar
+## Instalar (Android)
 
 1. Descarga el APK en tu teléfono.
 2. Ábrelo. Si Android lo pide, activa *Instalar apps de orígenes desconocidos*.
 3. Toca **Instalar**. Listo.
 
+## Con qué está hecha
+
+- **Android:** [Kotlin](https://kotlinlang.org/), Android nativo (Activities + layouts XML, Material 3).
+- **Escritorio:** [Tauri](https://tauri.app/) (Rust + interfaz web), instalador NSIS firmado.
+- **Motor de descarga (ambas):** [yt-dlp](https://github.com/yt-dlp/yt-dlp) + **ffmpeg** para unir y reparar archivos. En Android va [youtubedl-android](https://github.com/yausername/youtubedl-android); en escritorio se descarga en tiempo de ejecución.
+- **Build:** compilado y firmado automáticamente con GitHub Actions.
+- Android solo `arm64-v8a` (teléfonos modernos de 64 bits); escritorio `x86_64`.
+
 ## Requisitos
 
-| Dato        | Valor                    |
-|-------------|--------------------------|
-| Android     | 8.0 (API 26) o superior  |
-| Versión     | 2.5 (versionCode 14)     |
-| Arquitectura| arm64-v8a                |
-| Tamaño      | ~58 MB                   |
+| Dato         | Android                  | Escritorio              |
+|--------------|--------------------------|-------------------------|
+| Sistema      | Android 8.0 (API 26)+    | Windows 10/11 (64 bits) |
+| Versión      | 2.6                      | 1.0.1                   |
+| Arquitectura | arm64-v8a                | x86_64                  |
+| Tamaño       | ~59 MB                   | ~2.7 MB (instalador)    |
 
 ## Verificación y seguridad
 
 Como la app se instala fuera de Play Store, aquí tienes con qué comprobar que es segura y legítima:
 
 - **APK firmado.** Cada versión se firma con la misma llave (por eso la app se actualiza sola sin reinstalar). Un APK alterado por un tercero no coincide con esa firma.
-- **Compilado a la vista.** El APK se construye y firma automáticamente con GitHub Actions en cada versión; nada se sube a mano desde una compu cualquiera.
+- **Compilado a la vista.** El APK y el instalador de escritorio se construyen y firman automáticamente con GitHub Actions en cada versión; nada se sube a mano desde una compu cualquiera.
 - **Huella del archivo (SHA-256).** Comprueba que el APK que bajaste es idéntico al oficial, byte por byte:
 
   ```
-  fa7e828ccffecb557529d555231b7b593287642cb8925ffb16e3d2da1279a9ab
+  c1f6f4245ddeb0d545157dcd49248c92fc8bc0377f9917a597f515dc6f7d6955
   ```
 
   En PC o en el teléfono (Termux): `sha256sum SaveTools.apk` debe dar exactamente ese valor.
 - **Permisos mínimos.** Internet, notificaciones, instalar la actualización y guardar archivos. Nada de contactos, SMS ni ubicación.
-- **Análisis antivirus.** El APK está revisado en **[VirusTotal](https://www.virustotal.com/gui/file/fa7e828ccffecb557529d555231b7b593287642cb8925ffb16e3d2da1279a9ab)**. Míralo tú mismo.
+- **Análisis antivirus.** Revisa el APK en **[VirusTotal](https://www.virustotal.com/gui/file/c1f6f4245ddeb0d545157dcd49248c92fc8bc0377f9917a597f515dc6f7d6955)** por su huella; si aún no aparece el reporte, puedes subir el archivo ahí para analizarlo.
 
 ## Aviso
 
