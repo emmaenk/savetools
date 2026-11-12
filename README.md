@@ -2,13 +2,17 @@
 
 # SaveTools
 
-**Descarga videos desde TikTok, YouTube, Instagram, X, Facebook y más. En tu Android y en tu computadora. Rápido, directo y sin complicaciones.**
+**Descarga videos desde TikTok, YouTube, Instagram, X, Facebook y más. En Android, Windows, Mac e iOS. Rápido, directo y sin complicaciones.**
 
 ## [Descargar la app (APK)](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)
 
 [![Descargar APK](https://img.shields.io/badge/Android_·_Descargar_APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)
 &nbsp;
 [![Windows](https://img.shields.io/badge/Windows_·_Descargar-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/emmaenk/savetools/releases/tag/desktop-latest)
+
+[![Mac próximamente](https://img.shields.io/badge/Mac_·_próximamente-555?style=for-the-badge&logo=apple&logoColor=white)](#plataformas)
+&nbsp;
+[![iOS próximamente](https://img.shields.io/badge/iOS_·_próximamente-555?style=for-the-badge&logo=apple&logoColor=white)](#plataformas)
 
 [![Descargas totales](https://img.shields.io/github/downloads/emmaenk/savetools/total?style=flat-square&label=descargas&color=2ea44f)](https://github.com/emmaenk/savetools/releases)
 &nbsp;
@@ -18,7 +22,7 @@
 &nbsp;
 [![VirusTotal](https://img.shields.io/badge/VirusTotal-ver_análisis-394eff?style=flat-square)](https://www.virustotal.com/gui/file/c1f6f4245ddeb0d545157dcd49248c92fc8bc0377f9917a597f515dc6f7d6955)
 
-<sub>Un solo toque para bajar el APK. Android 8.0 o superior · Windows 10/11.</sub>
+<sub>Android 8.0+ · Windows 10/11 · Mac e iOS en camino.</sub>
 
 <br>
 
@@ -28,9 +32,18 @@
 
 ---
 
+## Plataformas
+
+| Plataforma | Estado | Descargar |
+|------------|--------|-----------|
+| **Android** | Disponible — v2.6 | [SaveTools.apk](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk) |
+| **Windows** | Disponible — v1.0.1 | [Instalador (64 bits)](https://github.com/emmaenk/savetools/releases/tag/desktop-latest) |
+| **Mac** | Próximamente | — |
+| **iOS** | Próximamente | — |
+
 ## Qué es
 
-SaveTools descarga videos sin vueltas. Pega uno o varios enlaces, elige la calidad y descarga. También puedes compartir un video desde cualquier otra app y SaveTools lo baja por ti. Hay dos versiones que comparten el mismo motor: la **app de Android** y la **app de escritorio para Windows** (Mac en camino).
+SaveTools descarga videos sin vueltas. Pega uno o varios enlaces, elige la calidad y descarga. También puedes compartir un video desde cualquier otra app y SaveTools lo baja por ti. Todas las versiones comparten el mismo motor: la **app de Android** y la **app de escritorio para Windows** ya están listas; las versiones de **Mac** e **iOS** están en camino.
 
 ## Características
 
@@ -72,6 +85,8 @@ La versión de computadora trae lo mismo que la de Android, con un instalador mu
 
 Como es una app fuera de la Store, Windows SmartScreen puede mostrar un aviso la primera vez: toca *Más información → Ejecutar de todas formas*.
 
+**Mac e iOS:** en camino. La app de escritorio ya corre sobre un motor multiplataforma, así que la versión de **Mac** llegará a esta misma sección de Releases; la de **iOS** vendrá después. Mientras tanto, en Mac puedes usar la app de Android en un emulador o esperar el build nativo.
+
 ## Descargar (Android)
 
 **Descarga directa:** **[SaveTools.apk](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)** — un solo toque y se baja al teléfono. Este enlace siempre sirve la versión más reciente.
@@ -100,6 +115,8 @@ También puedes entrar a la sección de **[Releases](../../releases/latest)**.
 | Versión      | 2.6                      | 1.0.1                   |
 | Arquitectura | arm64-v8a                | x86_64                  |
 | Tamaño       | ~59 MB                   | ~2.7 MB (instalador)    |
+
+**Mac** (Apple Silicon e Intel) e **iOS** están en desarrollo; se publicarán en esta misma sección de Releases.
 
 ## Verificación y seguridad
 
