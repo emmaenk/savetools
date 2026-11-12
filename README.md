@@ -10,7 +10,7 @@
 &nbsp;
 [![Windows](https://img.shields.io/badge/Windows_·_Descargar-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/emmaenk/savetools/releases/tag/desktop-latest)
 
-[![Mac próximamente](https://img.shields.io/badge/Mac_·_próximamente-555?style=for-the-badge&logo=apple&logoColor=white)](#plataformas)
+[![Mac](https://img.shields.io/badge/Mac_·_Descargar-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/emmaenk/savetools/releases/tag/desktop-latest)
 &nbsp;
 [![iOS próximamente](https://img.shields.io/badge/iOS_·_próximamente-555?style=for-the-badge&logo=apple&logoColor=white)](#plataformas)
 
@@ -22,7 +22,7 @@
 &nbsp;
 [![VirusTotal](https://img.shields.io/badge/VirusTotal-ver_análisis-394eff?style=flat-square)](https://www.virustotal.com/gui/file/c1f6f4245ddeb0d545157dcd49248c92fc8bc0377f9917a597f515dc6f7d6955)
 
-<sub>Android 8.0+ · Windows 10/11 · Mac e iOS en camino.</sub>
+<sub>Android 8.0+ · Windows 10/11 · Mac (universal) · iOS en camino.</sub>
 
 <br>
 
@@ -38,12 +38,12 @@
 |------------|--------|-----------|
 | **Android** | Disponible — v2.6 | [SaveTools.apk](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk) |
 | **Windows** | Disponible — v1.0.1 | [Instalador (64 bits)](https://github.com/emmaenk/savetools/releases/tag/desktop-latest) |
-| **Mac** | Próximamente | — |
+| **Mac** | Disponible — v1.0.1 (universal) | [DMG (Apple Silicon + Intel)](https://github.com/emmaenk/savetools/releases/tag/desktop-latest) |
 | **iOS** | Próximamente | — |
 
 ## Qué es
 
-SaveTools descarga videos sin vueltas. Pega uno o varios enlaces, elige la calidad y descarga. También puedes compartir un video desde cualquier otra app y SaveTools lo baja por ti. Todas las versiones comparten el mismo motor: la **app de Android** y la **app de escritorio para Windows** ya están listas; las versiones de **Mac** e **iOS** están en camino.
+SaveTools descarga videos sin vueltas. Pega uno o varios enlaces, elige la calidad y descarga. También puedes compartir un video desde cualquier otra app y SaveTools lo baja por ti. Todas las versiones comparten el mismo motor: las apps de **Android**, **Windows** y **Mac** ya están listas; la versión de **iOS** está en camino.
 
 ## Características
 
@@ -72,20 +72,26 @@ SaveTools descarga videos sin vueltas. Pega uno o varios enlaces, elige la calid
 - **Si una plataforma deja de funcionar**, toca *Actualizar motor* (actualiza el componente que lee los sitios). Mantén presionado ese botón para buscar actualización de la app.
 - **Permiso de instalación.** La primera vez Android pedirá permitir *instalar apps de orígenes desconocidos*; es normal en apps fuera de Play Store.
 
-## SaveTools para escritorio (Windows · Mac próximamente)
+## SaveTools para escritorio (Windows y Mac)
 
 La versión de computadora trae lo mismo que la de Android, con un instalador muy ligero.
 
-- **Instalador de ~2.7 MB.** El motor (yt-dlp y ffmpeg) se descarga solo la primera vez que lo necesitas, así que la instalación es mínima.
+- **Instalador ligerísimo** (~2.7 MB en Windows, ~8 MB en Mac). El motor (yt-dlp y ffmpeg) se descarga solo la primera vez que lo necesitas, así que la instalación es mínima.
 - **Cuentas por sitio.** En *Ajustes → Cuentas* tocas **Vincular**, inicias sesión en una ventana del propio sitio (Instagram, YouTube, Facebook, X) y la sesión queda guardada en tu equipo. Después, los enlaces de ese sitio usan tu sesión automáticamente.
 - **Calidad, MP3/M4A y carpeta a elegir**, igual que en Android.
 - **Se actualiza sola.** Te avisa cuando hay una versión nueva y la instala sin salir de la app.
 
-**Descargar (Windows 10/11, 64 bits):** entra a **[la última versión de escritorio](https://github.com/emmaenk/savetools/releases/tag/desktop-latest)** y baja el archivo `SaveTools_..._x64-setup.exe`.
+**Descargar:** entra a **[la última versión de escritorio](https://github.com/emmaenk/savetools/releases/tag/desktop-latest)** y baja el instalador de tu sistema:
 
-Como es una app fuera de la Store, Windows SmartScreen puede mostrar un aviso la primera vez: toca *Más información → Ejecutar de todas formas*.
+- **Windows 10/11 (64 bits):** `SaveTools_..._x64-setup.exe`.
+- **Mac (Apple Silicon e Intel):** `SaveTools_..._universal.dmg`.
 
-**Mac e iOS:** en camino. La app de escritorio ya corre sobre un motor multiplataforma, así que la versión de **Mac** llegará a esta misma sección de Releases; la de **iOS** vendrá después. Mientras tanto, en Mac puedes usar la app de Android en un emulador o esperar el build nativo.
+Como es una app fuera de la Store, puede salir un aviso la primera vez:
+
+- **Windows (SmartScreen):** *Más información → Ejecutar de todas formas*.
+- **Mac (Gatekeeper):** la app no está firmada con cuenta de Apple de pago, así que la primera vez ábrela con **clic derecho → Abrir** (o desde *Ajustes → Privacidad y seguridad → Abrir de todas formas*).
+
+**iOS:** en camino. Requiere otra arquitectura, porque iOS no permite ejecutar el motor de descarga igual que las demás plataformas.
 
 ## Descargar (Android)
 
@@ -102,21 +108,21 @@ También puedes entrar a la sección de **[Releases](../../releases/latest)**.
 ## Con qué está hecha
 
 - **Android:** [Kotlin](https://kotlinlang.org/), Android nativo (Activities + layouts XML, Material 3).
-- **Escritorio:** [Tauri](https://tauri.app/) (Rust + interfaz web), instalador NSIS firmado.
+- **Escritorio:** [Tauri](https://tauri.app/) (Rust + interfaz web); instalador NSIS en Windows y DMG universal en Mac, con updater firmado (minisign).
 - **Motor de descarga (ambas):** [yt-dlp](https://github.com/yt-dlp/yt-dlp) + **ffmpeg** para unir y reparar archivos. En Android va [youtubedl-android](https://github.com/yausername/youtubedl-android); en escritorio se descarga en tiempo de ejecución.
 - **Build:** compilado y firmado automáticamente con GitHub Actions.
-- Android solo `arm64-v8a` (teléfonos modernos de 64 bits); escritorio `x86_64`.
+- Android solo `arm64-v8a` (teléfonos modernos de 64 bits); escritorio `x86_64` en Windows y binario **universal** (Apple Silicon + Intel) en Mac.
 
 ## Requisitos
 
-| Dato         | Android                  | Escritorio              |
-|--------------|--------------------------|-------------------------|
-| Sistema      | Android 8.0 (API 26)+    | Windows 10/11 (64 bits) |
-| Versión      | 2.6                      | 1.0.1                   |
-| Arquitectura | arm64-v8a                | x86_64                  |
-| Tamaño       | ~59 MB                   | ~2.7 MB (instalador)    |
+| Dato         | Android               | Windows              | Mac                         |
+|--------------|-----------------------|----------------------|-----------------------------|
+| Sistema      | Android 8.0 (API 26)+ | Windows 10/11        | macOS (Apple Silicon/Intel) |
+| Versión      | 2.6                   | 1.0.1                | 1.0.1                       |
+| Arquitectura | arm64-v8a             | x86_64               | universal                   |
+| Tamaño       | ~59 MB                | ~2.7 MB (instalador) | ~8 MB (DMG)                 |
 
-**Mac** (Apple Silicon e Intel) e **iOS** están en desarrollo; se publicarán en esta misma sección de Releases.
+**iOS** está en desarrollo; requiere otra arquitectura por las restricciones de la plataforma.
 
 ## Verificación y seguridad
 
