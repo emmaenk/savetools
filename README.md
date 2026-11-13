@@ -4,6 +4,10 @@
 
 **Descarga videos, audios y fotos desde TikTok, YouTube, Instagram, X, Facebook, Telegram y más. En Android, iOS, Windows y Mac. Rápido, directo y sin complicaciones.**
 
+[![Guía completa — Wiki](https://img.shields.io/badge/%F0%9F%93%96_Gu%C3%ADa_completa-Abrir_la_Wiki-2ea44f?style=for-the-badge)](https://github.com/emmaenk/savetools/wiki)
+
+<sub>Instalación · uso · cuentas · solución de problemas → **[Wiki](https://github.com/emmaenk/savetools/wiki)**</sub>
+
 ## Descarga directa (un solo clic)
 
 [![Descargar APK](https://img.shields.io/badge/Android_·_Descargar_APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/emmaenk/savetools/releases/latest/download/SaveTools.apk)
