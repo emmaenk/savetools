@@ -24,7 +24,9 @@
 &nbsp;
 [![Última versión](https://img.shields.io/github/v/release/emmaenk/savetools?style=flat-square&label=versión&color=555)](#plataformas)
 &nbsp;
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-ver_análisis-394eff?style=flat-square)](https://www.virustotal.com/gui/file/c1f6f4245ddeb0d545157dcd49248c92fc8bc0377f9917a597f515dc6f7d6955)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-ver_análisis-394eff?style=flat-square)](https://www.virustotal.com/gui/file/61de689a2e9022c8d87bcce0aa41e637f5e9e2bc4a8575ef095e3b3f2613f95b)
+&nbsp;
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Invítame_un_café-FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/decodingmx)
 
 <sub>Android 8.0+ · iOS 16.0+ (Sideload) · Windows 10/11 · Mac (Apple Silicon + Intel).</sub>
 
@@ -116,32 +118,38 @@ Como es una app fuera de la tienda oficial, puede salir un aviso la primera vez:
 | Dato         | Android               | iOS (Sideload)         | Windows              | Mac                         |
 |--------------|-----------------------|------------------------|----------------------|-----------------------------|
 | Sistema      | Android 8.0 (API 26)+ | iOS / iPadOS 16.0+     | Windows 10/11        | macOS (Apple Silicon/Intel) |
-| Versión      | 2.6                   | 2.6                    | 1.0.1                | 1.0.1                       |
+| Versión      | 2.7                   | 2.7                    | 1.0.2                | 1.0.2                       |
 | Arquitectura | arm64-v8a             | arm64                  | x86_64               | universal                   |
 | Tamaño       | ~59 MB                | ~350 KB                | ~2.7 MB (instalador) | ~8 MB (DMG)                 |
 
 ## Verificación y seguridad
 
 - **Compilado automáticamente.** El APK, el IPA y los instaladores de escritorio se construyen con GitHub Actions en cada versión.
-- **Huella de los archivos (SHA-256 v2.6):**
+- **Huella de los archivos (SHA-256 v2.7):**
   - `SaveTools.apk`:
     ```
-    c1f6f4245ddeb0d545157dcd49248c92fc8bc0377f9917a597f515dc6f7d6955
+    61de689a2e9022c8d87bcce0aa41e637f5e9e2bc4a8575ef095e3b3f2613f95b
     ```
   - `SaveTools.ipa`:
     ```
     59350572b11406ac1e43f3603daa24bdb9c1ae05daa1a5796dd4a76c2ed37077
     ```
-- **Análisis antivirus:** revisa el APK en **[VirusTotal](https://www.virustotal.com/gui/file/c1f6f4245ddeb0d545157dcd49248c92fc8bc0377f9917a597f515dc6f7d6955)**.
+- **Análisis antivirus:** revisa el APK en **[VirusTotal](https://www.virustotal.com/gui/file/61de689a2e9022c8d87bcce0aa41e637f5e9e2bc4a8575ef095e3b3f2613f95b)**.
 
 ## Aviso
 
 Descarga únicamente contenido sobre el que tengas derecho. El uso de la app es tu responsabilidad.
 
+## Apoya el proyecto
+
+SaveTools es 100% gratuita, privada y libre de anuncios. Si la app te sirve y quieres apoyar su desarrollo y mantenimiento, puedes invitarme un café en Ko-fi:
+
+[![Apoyar en Ko-fi](https://img.shields.io/badge/☕_Apoyar_en_Ko--fi-decodingmx-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/decodingmx)
+
 ---
 
 <div align="center">
 
-Hecho por [@emmaenk](https://github.com/emmaenk)
+Hecho por [@emmaenk](https://github.com/emmaenk) · [savetools.online](https://savetools.online) · [Ko-fi](https://ko-fi.com/decodingmx)
 
 </div>
